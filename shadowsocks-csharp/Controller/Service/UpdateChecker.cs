@@ -37,11 +37,11 @@ namespace Shadowsocks.Controller
 
         public void CheckUpdate(Configuration config, int delay)
         {
-            CheckUpdateTimer timer = new CheckUpdateTimer(delay);
-            timer.AutoReset = false;
-            timer.Elapsed += Timer_Elapsed;
-            timer.config = config;
-            timer.Enabled = true;
+          //  CheckUpdateTimer timer = new CheckUpdateTimer(delay);
+          //  timer.AutoReset = false;
+          //  timer.Elapsed += Timer_Elapsed;
+          //  timer.config = config;
+          //  timer.Enabled = true;
         }
 
         private void Timer_Elapsed(object sender, System.Timers.ElapsedEventArgs e)
